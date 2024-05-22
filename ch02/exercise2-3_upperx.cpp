@@ -20,8 +20,8 @@ int main() {
   int upper{};
   int lower{};
   for (int i = 0; i < 4; ++i ) {
-    lower = 3 -i;
-    upper = 4 + i;
+    lower = i;
+    upper = 7 - i;
     draw_line(lower, upper);
   }
 }
